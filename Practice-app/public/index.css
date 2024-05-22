@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+}
+
+.con {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 100%; Ensure it doesn't exceed the width of the body */
+}
+
+.formcon {
+    border: 5px solid red;
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: red;
+}

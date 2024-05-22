@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(93, 255, 255);
+}
+
+.set{
+  text-align: center;
+}
+
+
+.ls{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 10px;
+  text-align: center;
+}
+
+input{
+  width: 280px;
+  height: 40px;
+}
+button{
+  width: 200px;
+  height: 50px;
+  margin-left: 38px;
+  font-size: 20px;
+  background-color: rgb(74, 74, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: blue;
+}
+
+p{
+  margin-top: -8px;
+  margin-bottom: -8px;
+  color: white;
+}
+
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+    text-align: center;
+}
